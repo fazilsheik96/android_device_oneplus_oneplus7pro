@@ -15,5 +15,5 @@
 runtime_resource_overlay {
     name: "OnePlus7ProSystemUI",
     sdk_version: "current",
-    device_specific: true,
+    product_specific: true,
 }
