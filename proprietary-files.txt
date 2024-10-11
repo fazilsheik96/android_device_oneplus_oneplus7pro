@@ -14,7 +14,6 @@ vendor/etc/acdbdata/adsp_avs_config.acdb
 
 # Audio
 vendor/lib/hw/audio.primary.msmnile.so
-vendor/lib64/hw/audio.primary.msmnile.so
 
 # Camera
 vendor/etc/camera/ashdr/iso617_4608x3456.ncf
