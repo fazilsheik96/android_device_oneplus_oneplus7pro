@@ -5,11 +5,8 @@
 #
 
 from extract_utils.fixups_lib import (
-    lib_fixup_remove_arch_suffix,
-    lib_fixup_vendorcompat,
     lib_fixups_user_type,
-    libs_clang_rt_ubsan,
-    libs_proto_3_9_1,
+    lib_fixups,
 )
 from extract_utils.main import (
     ExtractUtils,
@@ -23,8 +20,7 @@ namespace_imports = [
 ]
 
 lib_fixups: lib_fixups_user_type = {
-    libs_clang_rt_ubsan: lib_fixup_remove_arch_suffix,
-    libs_proto_3_9_1: lib_fixup_vendorcompat,
+    **lib_fixups,
 }
 
 module = ExtractUtilsModule(
