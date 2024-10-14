@@ -118,7 +118,7 @@ vendor/lib64/hw/goodix.fod.msmnile.so
 vendor/lib64/fp_hal_extension.so
 vendor/lib64/libarm_proxy_skel.so
 vendor/lib64/libgf_ud_hal.so
-vendor/lib64/libhvx_proxy_stub.so
+vendor/lib64/libhvx_proxy_stub.so;DISABLE_CHECKELF
 
 # ODM feature list
 odm/etc/odm_feature_list
@@ -196,8 +196,8 @@ vendor/etc/sensors/config/sx9324_0.json
 vendor/etc/sensors/config/sx932x_0.json
 vendor/etc/sensors/config/tcs3701.json
 vendor/etc/sensors/sns_reg_config
-vendor/lib/sensors.ssc.so
-vendor/lib64/sensors.ssc.so
+vendor/lib/sensors.ssc.so;DISABLE_CHECKELF
+vendor/lib64/sensors.ssc.so;DISABLE_CHECKELF
 
 # Vibrator Firmware
 vendor/firmware/aw8697_haptic_166.bin
