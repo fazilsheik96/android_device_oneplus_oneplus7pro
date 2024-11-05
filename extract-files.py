@@ -31,7 +31,6 @@ module = ExtractUtilsModule(
     'oneplus7pro',
     'oneplus',
     namespace_imports=namespace_imports,
-    check_elf=True,
     lib_fixups=lib_fixups,
 )
 
