@@ -15,5 +15,5 @@
 runtime_resource_overlay {
     name: "AOSPAOnePlus7ProFrameworks",
     sdk_version: "current",
-    device_specific: true,
+    system_ext_specific: true,
 }
